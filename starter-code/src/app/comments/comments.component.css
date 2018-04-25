@@ -1,3 +1,9 @@
+.section-comments, .comment1, .comment2 {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
 .nombre {
   font-weight: 600;
 }

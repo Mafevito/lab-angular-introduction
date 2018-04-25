@@ -1,12 +1,17 @@
+<div class="article3">
 <ul>
-  <li *ngFor= "let champion of champions">
-      <span>{{ champion.year}}</span>
-      <span>{{ champion.champion}}</span>
-          <span><img class="img" src="{{ champion.image}}"></span>
+  <div class="champion">
+  <li *ngFor = "let champion of champions">
+    <h2 class="year">{{champion.year}}</h2>
+    <h4>{{champion.champion}}</h4>
+    <span><img class="img" src="{{champion.image}}"></span>
+     <p>Best players</p>
     <ul>
-      <li *ngFor= "let player of champion.best_players">
+      <li *ngFor = "let player of champion.best_players">
         {{player}}
       </li>
     </ul>
   </li>
+</div>
 </ul>
+</div>

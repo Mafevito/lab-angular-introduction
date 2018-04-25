@@ -3,15 +3,17 @@
 }
 
 .article1 {
-  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.img {
+  width: 250px;
+  height: auto;
 }
 
 .imagen1, .imagen2 {
   float: left;
-  margin-right: 180px;
-}
-
-.img {
-  width: 300px;
-  height: 300px;
+  margin-right: 50px;
 }

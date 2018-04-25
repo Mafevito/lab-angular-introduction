@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Iteration1Component {
   title1 = "Gallery photos";
-  text1 = "description1";
-  text2 = "description2";
-  text3 = "description3";
+  text1 = "this is a description first img";
+  text2 = "this is a description second img";
+  text3 = "this is a description third img";
 }

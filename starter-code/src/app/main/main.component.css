@@ -3,6 +3,12 @@
   text-align: center;
 }
 
+.article2 {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
 .img2 {
   width: 100%;
 }

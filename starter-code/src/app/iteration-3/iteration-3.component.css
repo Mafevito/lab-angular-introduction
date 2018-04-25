@@ -1,4 +1,19 @@
+.article3 {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
 .img {
   width: 200px;
   height: 200px;
+}
+
+.champion {
+  display: flex;
+  list-style: none;
+}
+
+.champion li {
+  width: 40%;
 }
